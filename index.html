@@ -34,19 +34,25 @@
     padding: 20px 20px 30px;
     overflow-y: auto;
   }
+header {
+  text-align: center;
+  margin: 0 auto 30px;
+  max-width: 680px;
+}
 
-  header {
-    text-align: center;
-    margin-bottom: 18px;
-    padding-top: 8px;
-  }
+ .banner-title {
+    margin: 0;
+    font-size: 0;
+}
 
-  h1 {
-    font-size: 2.2rem;
-    color: #f0c040;
-    letter-spacing: 3px;
-    margin-bottom: 8px;
-  }
+ .banner-title img {
+    display: block;
+    width: 100%;
+    max-width: 680px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+}
 
   .tagline {
     font-size: 1.15rem;
@@ -176,16 +182,16 @@
 
 <body>
 
+
 <header>
-  <h1>NumNum</h1>
-  <div class="tagline">Drop and merge number cards.</div>
+<h1 class="banner-title"><img src="bannerpink.jpeg" alt="NumNum"></h1>
 </header>
 
 <div class="selection-container">
   <div class="selection-row">
-    <button class="selection-button" onclick="location.href='44.html'">NumNum 4X4</button>
-    <button class="selection-button" onclick="location.href='55.html'">NumNum 5X5</button>
-    <button class="selection-button" onclick="location.href='66.html'">NumNum 6X6</button>
+    <button class="selection-button" onclick="location.href='44.html'">4X4</button>
+    <button class="selection-button" onclick="location.href='55.html'">5X5</button>
+    <button class="selection-button" onclick="location.href='66.html'">6X6</button>
   </div>
 </div>
 
